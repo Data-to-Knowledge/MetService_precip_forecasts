@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="prec">
+<SrcDataSource>C:\Active\Projects\MetService_precip_analysis\Data\temp_files\prec.csv</SrcDataSource>
+<GeometryType>wkbPoint</GeometryType>
+<LayerSRS>EPSG:2193</LayerSRS>
+<GeometryField encoding="PointFromColumns" x="NZTMX" y="NZTMY" z="prec"/>
+</OGRVRTLayer>
+</OGRVRTDataSource>
