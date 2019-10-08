@@ -5,7 +5,7 @@ __author__ = 'Wilco Terink'
 __copyright__ = 'Wilco Terink'
 __version__ = '1.0'
 __email__ = 'wilco.terink@ecan.govt.nz'
-__date__ = 'September 2019'
+__date__ = 'October 2019'
 ############################################################################################
 
 
@@ -95,7 +95,7 @@ logFile = 'errors.log'
 #Fproducts = ['NCEP_4km', 'NCEP_8km', 'UKMO_8km']
 Fproducts = ['UKMO_8km']
 
-vrtFile = r'C:\Active\Projects\MetService_precip_analysis\scripts\prec.vrt'
+vrtFile = r'C:\Active\Eclipse_workspace\MetService_precip_forecasts\python\prec.vrt'
 csvFile = r'C:\Active\Projects\MetService_precip_analysis\Data\temp_files\prec.csv'
 
 
@@ -112,10 +112,6 @@ cols = np.ceil((xmax-xmin)/res)
 ##-Time zone settings
 nzTimeZones = pytz.country_timezones['nz']
 nzTimeZones = nzTimeZones[0]
-
-
-
-
 
 for fProduct in Fproducts:
     ncDir = os.path.join(ncRootDir, fProduct)

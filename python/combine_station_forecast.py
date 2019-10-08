@@ -5,7 +5,7 @@ __author__ = 'Wilco Terink'
 __copyright__ = 'Wilco Terink'
 __version__ = '1.0'
 __email__ = 'wilco.terink@ecan.govt.nz'
-__date__ = 'September 2019'
+__date__ = 'October 2019'
 ############################################################################################
 
 '''
@@ -26,7 +26,7 @@ tifDir = r'C:\Active\Projects\MetService_precip_analysis\Data\tif_forecasts'
 #-List with directories that contain
 #Fproducts = ['ECMWF_8km', 'NCEP_4km', 'NCEP_8km', 'UKMO_8km']
 #Fproducts = ['ECMWF_8km', 'NCEP_8km']
-Fproducts = ['ECMWF_8km']
+Fproducts = ['UKMO_8km']
 
 
 from_date = '2018-08-01 00:00'
